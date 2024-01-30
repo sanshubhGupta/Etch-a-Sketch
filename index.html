@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖌</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Etch-a-Sketch</h1>
+    </header>
+    <div class="body">
+        <div class="panel">
+            <h2>Tools</h2>  
+            <div class="slider">
+                <div class="rangeText"><p>16 x 16</p></div>
+                <input type="range" min="1" max="100" value="16" class="gridDimensions">
+            </div>
+            <button class="ink">Ink🖤</button>
+            <button class="rainbow">rainbow🌈</button>
+            <button class="eraser">Eraser🤍</button>
+            <button class="clear">clear✨</button>
+        </div>
+        <div class="pixels"></div>
+    </div>
+</body>
+</html>

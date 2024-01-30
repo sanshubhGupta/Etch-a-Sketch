@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    background-image: linear-gradient(to right,  rgb(243, 109, 109), rgb(243, 76, 221), rgb(221, 37, 238), rgb(243, 76, 221), rgb(243, 109, 109));
+    color: rgb(248, 203, 203);  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    height: 80px;
+}
+
+.body{
+    height: calc(100vh - 80px);
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(170, 245, 232) , rgb(243, 76, 221), rgb(249, 192, 253), rgb(255, 211, 130));
+
+}
+
+h2{
+    text-align: center;
+    width: 90%;
+    border-radius: 50px;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: rgb(249, 192, 253);
+    color: rgb(238, 37, 161);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pixels{
+    height: 90%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid rgb(124, 124, 124);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.panel{
+    height: 90%;
+    padding-bottom: 15px;
+    aspect-ratio: 1 / 2;
+    background-color: rgb(238, 37, 161);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+button{
+    height: 10%;
+    width: 80%;
+    cursor: pointer;
+    border: 2px solid rgb(221, 37, 238);
+    border-radius: 50px;
+}
+
+.gridDimensions{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 20px;
+    background: white;
+    border-radius: 50px;
+}
+
+.gridDimensions::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: rgb(221, 37, 238);
+    cursor: pointer;
+}
+
+.rangeText{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+    background-color: rgb(221, 37, 238);
+    border-radius: 50px;
+}
+
